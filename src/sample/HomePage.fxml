@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomePageController">
+   <children>
+      <Label layoutX="259.0" layoutY="14.0" prefHeight="47.0" prefWidth="168.0" text="Bikroy.com" textFill="#5f66d9">
+         <font>
+            <Font name="Bernard MT Condensed" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="search" layoutX="468.0" layoutY="135.0" mnemonicParsing="false" onAction="#SearchAction" prefHeight="32.0" prefWidth="101.0" text="Run Query">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="57.0" layoutY="113.0" prefHeight="61.0" prefWidth="379.0" text="1.Search a Product with price range" textFill="#258028" wrapText="true">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="page_2" layoutX="599.0" layoutY="589.0" mnemonicParsing="false" onAction="#page_2Action" prefHeight="32.0" prefWidth="47.0" text="2" />
+      <Label layoutX="57.0" layoutY="72.0" prefHeight="48.0" prefWidth="160.0" text="Simple Query" textFill="#0a0c2c">
+         <font>
+            <Font name="Bodoni MT Condensed" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
